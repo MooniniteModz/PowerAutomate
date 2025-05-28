@@ -1,0 +1,396 @@
+
+
+
+<meta>
+<meta>
+<title>Travel Request Form Submitted</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #e2d9d9;
+    }
+    .container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .content {
+        padding: 30px;
+    }
+    .section {
+        margin-bottom: 30px;
+        border-left: 4px solid #667eea;
+        padding-left: 20px;
+    }
+    .section h2 {
+        color: #394991;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .info-row {
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+    .label {
+        font-weight: 600;
+        color: #555;
+    }
+    .value {
+        color: #333;
+        word-wrap: break-word;
+    }
+    .highlight {
+        background-color: #f0f4ff;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #e1e8ff;
+    }
+    .status {
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .status.yes {
+        background-color: #d4edda;
+        color: #155724;
+    }
+    .status.no {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+    .status.maybe {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+    .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+    }
+    @media (max-width: 600px) {
+        .container {
+            margin: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+    }
+</style>
+
+
+<div class="container">
+    <div class="header">
+        <h1>Travel Request Form Submitted</h1>
+    </div>
+
+    <div class="content">
+        <!-- Personal Information -->
+        <div class="section">
+            <h2>Personal Information</h2>
+            <div class="info-row"><span class="label">Employee Name:</span> @{outputs('Travel_Form_Answers')?['body/r7296fb5732d44b218fa3de9c8268f6cd']} @{outputs('Travel_Form_Answers')?['body/rae5e555966aa49c1aab7d02472436e08']} @{outputs('Travel_Form_Answers')?['body/rd24d311560374eac95841993e6d4e8c1']}</div>
+            <div class="info-row"><span class="label">Date of Birth:</span> @{outputs('Travel_Form_Answers')?['body/r76bc038cfced48f1a4536921b6928f4c']}</div>
+            <div class="info-row"><span class="label">Gender:</span>@{outputs('Travel_Form_Answers')?['body/r56113d1f5d30454b98dff931cb0bc6d9']}</div>
+            <div class="info-row"><span class="label">Mobile Number:</span> @{outputs('Travel_Form_Answers')?['body/rece0824db0aa496d84238b3307d9d998']}</div>
+            <div class="info-row"><span class="label">Email:</span> @{outputs('Travel_Form_Answers')?['body/r31c0dd984061408a8a7f6717f21c66ac']}</div>
+            <div class="info-row"><span class="label">Company:</span>@{outputs('Travel_Form_Answers')?['body/rccf76def1cc24ea0abf7de74963e7946']} </div>
+            <div class="info-row"><span class="label">Site:</span> @{outputs('Travel_Form_Answers')?['body/rd1c7db6521c3425b935d01a62cc9d74e']}@{outputs('Travel_Form_Answers')?['body/r235764597dbf43f29601e089f629c108']} </div>
+            <div class="info-row"><span class="label">Guest Type:</span> @{outputs('Travel_Form_Answers')?['body/re9cea3469d374a78a8a325194c88a367']}@{outputs('Travel_Form_Answers')?['body/red4b609a8b8a428d986d707fa0ae07e2']}</div>
+            <div class="info-row"><span class="label">Submitted By:</span> @{outputs('Travel_Form_Answers')?['body/rf7e08e8ff6b54bc8975192287425aaae']}</div>
+
+            <div class="highlight">
+                <strong>Reason for Travel:</strong> @{outputs('Travel_Form_Answers')?['body/r9b9bf7fb164d44bba39a6cd61b65725b']}
+            </div>
+        </div>
+
+        <!-- Air Travel -->
+        <div class="section">
+            <h2>Air Travel</h2>
+            <div class="info-row"><span class="label">Air Travel Required:</span> <span class="status yes">Yes</span></div>
+
+
+
+<meta>
+<meta>
+<title>Travel Request Form Submitted</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+    .container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .content {
+        padding: 30px;
+    }
+    .section {
+        margin-bottom: 30px;
+        border-left: 4px solid #667eea;
+        padding-left: 20px;
+    }
+    .section h2 {
+        color: #667eea;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .info-row {
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+    .label {
+        font-weight: 600;
+        color: #555;
+    }
+    .value {
+        color: #333;
+        word-wrap: break-word;
+    }
+    .highlight {
+        background-color: #f0f4ff;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #e1e8ff;
+    }
+    .status {
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .status.yes {
+        background-color: #d4edda;
+        color: #155724;
+    }
+    .status.no {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+    .status.maybe {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+    .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+    }
+    @media (max-width: 600px) {
+        .container {
+            margin: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+    }
+</style>
+
+
+<div class="container">
+    <div class="header">
+        <h1>Travel Request Form Submitted</h1>
+    </div>
+
+    <div class="content">
+        <!-- Personal Information -->
+        <div class="section">
+            <h2>Personal Information</h2>
+            <div class="info-row"><span class="label">Employee Name:</span> @{outputs('Travel_Form_Answers')?['body/r7296fb5732d44b218fa3de9c8268f6cd']} @{outputs('Travel_Form_Answers')?['body/rae5e555966aa49c1aab7d02472436e08']} @{outputs('Travel_Form_Answers')?['body/rd24d311560374eac95841993e6d4e8c1']}</div>
+            <div class="info-row"><span class="label">Date of Birth:</span> @{outputs('Travel_Form_Answers')?['body/r76bc038cfced48f1a4536921b6928f4c']}</div>
+            <div class="info-row"><span class="label">Gender:</span>@{outputs('Travel_Form_Answers')?['body/r56113d1f5d30454b98dff931cb0bc6d9']}</div>
+            <div class="info-row"><span class="label">Mobile Number:</span> @{outputs('Travel_Form_Answers')?['body/rece0824db0aa496d84238b3307d9d998']}</div>
+            <div class="info-row"><span class="label">Email:</span> @{outputs('Travel_Form_Answers')?['body/r31c0dd984061408a8a7f6717f21c66ac']}</div>
+            <div class="info-row"><span class="label">Company:</span>@{outputs('Travel_Form_Answers')?['body/rccf76def1cc24ea0abf7de74963e7946']} </div>
+            <div class="info-row"><span class="label">Site:</span> @{outputs('Travel_Form_Answers')?['body/rd1c7db6521c3425b935d01a62cc9d74e']}@{outputs('Travel_Form_Answers')?['body/r235764597dbf43f29601e089f629c108']} </div>
+            <div class="info-row"><span class="label">Guest Type:</span> @{outputs('Travel_Form_Answers')?['body/re9cea3469d374a78a8a325194c88a367']}@{outputs('Travel_Form_Answers')?['body/red4b609a8b8a428d986d707fa0ae07e2']}</div>
+            <div class="info-row"><span class="label">Submitted By:</span> @{outputs('Travel_Form_Answers')?['body/rf7e08e8ff6b54bc8975192287425aaae']}</div>
+
+            <div class="highlight">
+                <strong>Reason for Travel:</strong> @{outputs('Travel_Form_Answers')?['body/r9b9bf7fb164d44bba39a6cd61b65725b']}
+            </div>
+        </div>
+
+        <!-- Air Travel -->
+        <div class="section">
+            <h2>Air Travel</h2>
+            <div class="info-row"><span class="label">Air Travel Required:</span> <span class="status yes">Yes</span></div>
+
+            <!-- Air Travel Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">Flight Type:</span> Round Trip</div>
+                <div class="info-row"><span class="label">Desired Airline:</span> SWA</div>
+                <div class="info-row"><span class="label">From (City):</span> Tulsa</div>
+                <div class="info-row"><span class="label">To (City):</span> Phoenix</div>
+                <div class="info-row"><span class="label">Airline Rewards Number:</span> 20553492886</div>
+                <div class="info-row"><span class="label">Departure Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Return Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Departure Time:</span> 10:30am</div>
+                <div class="info-row"><span class="label">Return Time:</span> 2:40pm</div>
+                <div class="info-row"><span class="label">Desired Seat:</span> Any works (Default)</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Air Travel Information:</strong> outbound tulsa on flight 4640 and returning on flight 3075
+                </div>
+            </div>
+        </div>
+
+        <!-- Ground Transportation -->
+        <div class="section">
+            <h2>Ground Transportation</h2>
+            <div class="info-row"><span class="label">Ground Transport Required:</span> <span class="status yes">Yes</span></div>
+
+            <!-- Ground Transportation Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">Reservation Needs:</span> Rental Car</div>
+                <div class="info-row"><span class="label">Rental Pick Up City/Airport:</span> pho</div>
+                <div class="info-row"><span class="label">Rental Pick Up Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Rental Pick Up Time:</span> 11am</div>
+                <div class="info-row"><span class="label">Rental Drop Off City/Airport:</span> pho</div>
+                <div class="info-row"><span class="label">Rental Return Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Rental Drop Off Time:</span> 2:40pm</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Ground Transportation Information:</strong> prefer National
+                </div>
+            </div>
+        </div>
+
+        <!-- Lodging -->
+        <div class="section">
+            <h2>Lodging</h2>
+            <div class="info-row"><span class="label">Lodging Required:</span> <span class="status yes">Yes</span></div>
+
+            <!-- Lodging Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">City &amp; State:</span> phoenix</div>
+                <div class="info-row"><span class="label">Specific Hotel and Address:</span> by the airport, best price of course</div>
+                <div class="info-row"><span class="label">Hotel Rewards Number:</span> 379497149</div>
+                <div class="info-row"><span class="label">Check In Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Check Out Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Bed Type:</span> King</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Hotel Information:</strong> points stay please
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Information -->
+        <!-- No other details provided -->
+    </div>
+
+    <div class="footer">
+        <p>This travel request was automatically generated and submitted for approval.</p>
+        <p>Please review and take appropriate action.</p>
+    </div>
+</div>
+
+
+            <!-- Air Travel Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">Flight Type:</span> Round Trip</div>
+                <div class="info-row"><span class="label">Desired Airline:</span> SWA</div>
+                <div class="info-row"><span class="label">From (City):</span> Tulsa</div>
+                <div class="info-row"><span class="label">To (City):</span> Phoenix</div>
+                <div class="info-row"><span class="label">Airline Rewards Number:</span> 20553492886</div>
+                <div class="info-row"><span class="label">Departure Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Return Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Departure Time:</span> 10:30am</div>
+                <div class="info-row"><span class="label">Return Time:</span> 2:40pm</div>
+                <div class="info-row"><span class="label">Desired Seat:</span> Any works (Default)</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Air Travel Information:</strong> outbound tulsa on flight 4640 and returning on flight 3075
+                </div>
+            </div>
+        </div>
+
+        <!-- Ground Transportation -->
+        <div class="section">
+            <h2>Ground Transportation</h2>
+            <div class="info-row"><span class="label">Ground Transport Required:</span> <span class="status yes">Yes</span></div>
+
+            <!-- Ground Transportation Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">Reservation Needs:</span> Rental Car</div>
+                <div class="info-row"><span class="label">Rental Pick Up City/Airport:</span> pho</div>
+                <div class="info-row"><span class="label">Rental Pick Up Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Rental Pick Up Time:</span> 11am</div>
+                <div class="info-row"><span class="label">Rental Drop Off City/Airport:</span> pho</div>
+                <div class="info-row"><span class="label">Rental Return Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Rental Drop Off Time:</span> 2:40pm</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Ground Transportation Information:</strong> prefer National
+                </div>
+            </div>
+        </div>
+
+        <!-- Lodging -->
+        <div class="section">
+            <h2>Lodging</h2>
+            <div class="info-row"><span class="label">Lodging Required:</span> <span class="status yes">Yes</span></div>
+
+            <!-- Lodging Details -->
+            <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+                <div class="info-row"><span class="label">City &amp; State:</span> phoenix</div>
+                <div class="info-row"><span class="label">Specific Hotel and Address:</span> by the airport, best price of course</div>
+                <div class="info-row"><span class="label">Hotel Rewards Number:</span> 379497149</div>
+                <div class="info-row"><span class="label">Check In Date:</span> 2024-06-10</div>
+                <div class="info-row"><span class="label">Check Out Date:</span> 2024-06-13</div>
+                <div class="info-row"><span class="label">Bed Type:</span> King</div>
+                <div class="highlight" style="margin-top: 10px;">
+                    <strong>Miscellaneous Hotel Information:</strong> points stay please
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Information -->
+        <!-- No other details provided -->
+    </div>
+
+    <div class="footer">
+        <p>This travel request was automatically generated and submitted for approval.</p>
+        <p>Please review and take appropriate action.</p>
+    </div>
+</div>
+
